@@ -1,4 +1,5 @@
 import React from 'react';
+import styles from './app.css';
 
 export default class App extends React.Component {
   constructor() {
@@ -14,7 +15,7 @@ export default class App extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className={styles.root}>
         <p>{ this.state.count }</p>
         <button onClick={() => this.increment()}>Increment</button>
       </div>
