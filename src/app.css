@@ -1,3 +1,22 @@
+@value primary: red;
+@value secondary: blue;
+
+:global h1 {
+  color: primary;
+}
+
 .app p {
-  color: green;
+  color: black;
+}
+
+.btnPrimary {
+  background: white;
+  border: 1px solid primary;
+  color: primary;
+}
+
+.btnSecondary {
+  composes: btnPrimary;
+  border-color: secondary;
+  color: secondary;
 }
