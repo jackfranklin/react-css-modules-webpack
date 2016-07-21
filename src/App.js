@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from './app.css';
-// import {app, btnPrimary, btnSecondary}styles from './app.css'; // alt import
 
 export default class App extends React.Component {
   constructor() {
