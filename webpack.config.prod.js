@@ -37,7 +37,6 @@ module.exports = {
     }, {
       test: /\.css$/,
       loader: ExtractTextPlugin.extract(
-        'style-loader',
         combineLoaders([{
           loader: 'css-loader',
           query: {
